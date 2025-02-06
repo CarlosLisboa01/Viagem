@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História de Amor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6e6;
+            text-align: center;
+            padding: 20px;
+        }
+        .story-container {
+            width: 60%;
+            margin: auto;
+        }
+        .story-card {
+            perspective: 1000px;
+            margin-bottom: 20px;
+        }
+        .card-inner {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+        }
+        .story-card:hover .card-inner {
+            transform: rotateY(180deg);
+        }
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 20px;
+        }
+        .card-front {
+            background: #ffb6c1;
+            color: white;
+        }
+        .card-back {
+            transform: rotateY(180deg);
+        }
+        .card-back img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <h2>Nossa Viagem</h2>
+    <img src="pngtree-red-3d-heart-emoji-realistic-shadow-png-image_4539964.png">
+    <div class="story-container">
+        <div class="story-card">
+            <div class="card-inner">
+                <div class="card-front">Nada como a emoção de um novo lugar, a surpresa de cada detalhe e a alegria de compartilhar tudo isso com alguém que amo.</div>
+                <div class="card-back"><img src="Beto.jfif" alt="Primeiro Encontro"></div>
+            </div>
+        </div>
+        <div class="story-card">
+            <div class="card-inner">
+                <div class="card-front">Entre risos, adrenalina e novas descobertas, construímos memórias inesquecíveis.</div>
+                <div class="card-back"><img src="Barco.jfif" alt="Casamento"></div>
+            </div>
+        </div>
+        <div class="story-card">
+            <div class="card-inner">
+                <div class="card-front">Viajamos para conhecer lugares, mas acabamos descobrindo ainda mais sobre nós mesmos.</div>
+                <div class="card-back"><img src="Bondinho.jfif" alt="Nova Jornada"></div>
+            </div>
+        </div>
+        <div class="story-card">
+            <div class="card-inner">
+                <div class="card-front">Exploramos o mundo juntos, criando memórias inesquecíveis.</div>
+                <div class="card-back"><img src="Coraão.jfif" alt="Viagens Juntos"></div>
+            </div>
+        </div>
+        <div class="story-card">
+            <div class="card-inner">
+                <div class="card-front">Explorar novos lugares é bom, mas fazê-lo ao lado de quem amamos é ainda melhor.</div>
+                <div class="card-back"><img src="Lugartop.jfif" alt="Pôr do Sol Romântico"></div>
+            </div>
+        </div>
+        <div class="story-card">
+            <div class="card-inner">
+                <div class="card-front">Pequenos gestos de amor fazem toda a diferença.</div>
+                <div class="card-back"><img src="Pedido.jfif" alt="Surpresas e Presentes"></div>
+            </div>
+        </div>
+        <div class="story-card">
+            <div class="card-inner">
+                <div class="card-front">Os melhores momentos da vida são aqueles que nos fazem sorrir sem perceber.</div>
+                <div class="card-back"><img src="Coração 2.jfif" alt="Aniversário de Casamento"></div>
+            </div>
+        </div>
+        <div class="story-card">
+            <div class="card-inner">
+                <div class="card-front">Cada momento se torna incrível com você.</div>
+                <div class="card-back"><img src="Hot.jfif" alt="Crescimento da Família"></div>
+            </div>
+        </div>
+        <div class="story-card">
+            <div class="card-inner">
+                <div class="card-front">Cada risada compartilhada torna a aventura ainda mais especial.</div>
+                <div class="card-back"><img src="d84af1c4-1102-493f-8d43-8c6db15cd35b.jfif" alt="Jantar Romântico"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
